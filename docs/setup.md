@@ -20,5 +20,15 @@ A microphone and Windows permission for desktop apps to access it are required.
 The model download and dependency installation need internet access; the local
 speech workflow operates offline afterward.
 
-The source and launch scripts are not part of this first publication. Installing
-dependencies alone does not provide a runnable assistant yet.
+After installing dependencies and extracting the model, check the setup:
+
+```powershell
+.\.venv\Scripts\python.exe check_setup.py
+.\.venv\Scripts\python.exe -m unittest discover -v
+```
+
+Double-click `Start Voice Agent.cmd` to open the assistant. Select your microphone,
+press Start listening and say "computer open Notepad", then pause.
+Use `Show Workflow Demo.cmd` for a simulated workflow without microphone capture
+or application launches. `Start Voice Test.cmd` is a legacy launcher for the same
+command-enabled application, not a transcription-only mode.

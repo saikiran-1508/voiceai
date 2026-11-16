@@ -2,11 +2,9 @@
 
 ## Repository publication status
 
-This repository currently contains the setup and documentation milestone for a
-voice-controlled Windows desktop assistant. The working application source is
-being published incrementally and is not included in this first milestone.
-The usage instructions below describe the local prototype; they will become
-runnable from a fresh clone once the source and launchers are published.
+This repository contains the application source, launchers, tests and documentation
+for a voice-controlled Windows desktop assistant. Follow [the setup guide](docs/setup.md)
+to install dependencies and download the offline speech model before running it.
 The repository URL is named `troubleshooting`; its current project is the
 voice-controlled desktop assistant described here.
 

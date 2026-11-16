@@ -10,5 +10,6 @@ LangGraph to organize command interpretation, validation, execution and reportin
 Commands are matched against predefined phrases. No language model, external AI
 API, RAG system, Firebase integration or phone interface is implemented yet.
 
-This initial repository milestone publishes documentation and dependency
-information. Application source remains local until subsequent uploads.
+The repository includes the application source, workflow, launch scripts, setup
+diagnostics and automated tests. Downloaded models and local environments are
+excluded and can be recreated using the setup guide.

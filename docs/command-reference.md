@@ -1,7 +1,7 @@
 # Local prototype command reference
 
-The following commands are implemented in the local prototype. Their application
-source will be published in later milestones.
+The following commands are implemented in the application source included in this
+repository.
 
 | Spoken phrase | Intended action |
 | --- | --- |
